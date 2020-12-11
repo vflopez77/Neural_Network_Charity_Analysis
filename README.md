@@ -7,7 +7,7 @@ A target of 75% or higher accuracy was desired.
 
 ## Results
 ### Data Preprocessing
-The data for the neural network model was as follows:
+The data for the neural network model is as follows:
 - The target variable was IS_SUCCESSFUL - whether the money was used effectively.
 
 - The features were:
@@ -21,7 +21,7 @@ The data for the neural network model was as follows:
   - SPECIAL_CONSIDERATIONS — Special consideration for application
   - ASK_AMT — Funding amount requested
   
-- Identification columns that were not used:
+- Identification columns that are not used:
   - EIN
   - NAME
     
