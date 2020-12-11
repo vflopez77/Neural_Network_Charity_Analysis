@@ -1,5 +1,6 @@
-# Ignoring starter files
+# Ignoring starter and practice files files
 AlphabetSoupCharity_starter_code.ipynb
+AlphabetSoupCharity_Optimzation_copy.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
