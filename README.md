@@ -24,4 +24,6 @@ The data for the neural network model is as follows:
 - Identification columns that are not used:
   - EIN
   - NAME
-    
+### Compiling, Training and Evaluating the Model
+The original model was only able to attain an accuracy of 0.7242
+<img src=Resources\Original_Performance.png></img><br>
