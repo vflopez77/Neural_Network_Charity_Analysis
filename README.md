@@ -27,5 +27,6 @@ The data for the neural network model is as follows:
 ### Compiling, Training and Evaluating the Model
 The original model was only able to attain an accuracy of 0.7242
 <img src=Resources\Original_Performance.png></img><br>
-These are the original model parameters:<br>
+Here are the original model parameters.<br>
+The activation for the inner layers is RELU and the activation for the output layer is SIGMOID.
 <img src=Resources\Original_Model.png></img><br>
