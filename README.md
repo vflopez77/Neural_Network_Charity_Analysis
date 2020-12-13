@@ -29,7 +29,7 @@ The data for the neural network model is as follows:
 <img src=Resources\Original_Performance.png></img><br>
 Here are the original model parameters.<br>
   - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
-  - There were 80 nodes in the first hidden layer and 30 in the second.<br>
+  - There were 80 nodes in the first hidden layer and 30 in the second hidden layer.<br>
   - There were 50 training epochs for all models as no improvement was ever observed after 50.<br>
 <img src=Resources\Original_Model.png></img><br>
 - The first attempt at optimization had the following changes:
@@ -39,6 +39,6 @@ Here are the original model parameters.<br>
   <img src=Resources\Optimization1_Performance.png></img><br>
   Here are the parameters for the first optimiztion attempt.
   - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
-  - There were 120 nodes in the first hidden layer and 60 in the second.<br>
-  - There were 50 training epochs.
+  - There were 120 nodes in the first hidden layer and 60 in the second hidden layer.<br>
+  - There were 50 training epochs.<br>
 <img src=Resources\Optimization1_Model.png></img><br>
