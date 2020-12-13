@@ -54,3 +54,14 @@ The data for the neural network model is as follows:
 <img src=Resources\Optimization2_Model.png></img><br>
  - The second optimization attempt had an accuracy of <b>0.7195</b>, showing worse performance.
   <img src=Resources\Optimization2_Performance.png></img><br>
+    
+- The second attempt at optimization had the following changes:
+  - Dropped the possible noisy INCOME_AMT field.
+  - Added a third hidden layer.
+ - Here are the parameters for the first optimization attempt:<br>
+    - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
+    - There were 82 nodes in the first hidden layer, 41 in the second hidden layer, and 20 in the third hidden layer<br>
+    - There were 50 training epochs.<br>
+<img src=Resources\Optimization2_Model.png></img><br>
+ - The second optimization attempt had an accuracy of <b>0.7195</b>, showing worse performance.
+  <img src=Resources\Optimization2_Performance.png></img><br>
