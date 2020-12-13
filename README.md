@@ -63,6 +63,6 @@ The data for the neural network model is as follows:
     - The activation for the inner layers is <b>SWISH</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
     - There were 80 nodes in the first hidden layer and 30 in the second hidden layer.<br>
     - There were 50 training epochs.<br>
-<img src=Resources\Optimization2_Model.png></img><br>
+<img src=Resources\Optimization3_Model.png></img><br>
  - The second optimization attempt had an accuracy of <b>0.7202</b>, slightly better than Attempt #2 but worse than Attempt #1 and the original model.
-  <img src=Resources\Optimization2_Performance.png></img><br>
+  <img src=Resources\Optimization3_Performance.png></img><br>
