@@ -66,3 +66,8 @@ The data for the neural network model is as follows:
 <img src=Resources\Optimization3_Model.png></img><br>
  - The second optimization attempt had an accuracy of <b>0.7202</b>, slightly better than Attempt #2 but worse than Attempt #1 and the original model.
   <img src=Resources\Optimization3_Performance.png></img><br>
+
+## Summary
+- While this model shows some potential for automating the identification of worthwhile organizations for Alphabet Soup, it is not ideal and does not acheive the 0.75 accuracy goal.
+- A simpler model such as Logistical Regression may prove to be more appropriate for this problem.
+- A larger data set may be needed for a neural network model to work effectively.
