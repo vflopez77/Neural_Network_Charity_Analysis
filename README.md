@@ -25,20 +25,20 @@ The data for the neural network model is as follows:
   - EIN
   - NAME
 ### Compiling, Training and Evaluating the Model
-- The original model had an accuracy of <b>0.7242</b>.
-<img src=Resources\Original_Performance.png></img><br>
-Here are the original model parameters.<br>
+-Here are the original model parameters:<br>
   - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
   - There were 80 nodes in the first hidden layer and 30 in the second hidden layer.<br>
   - There were 50 training epochs for all models as no improvement was ever observed after 50.<br>
 <img src=Resources\Original_Model.png></img><br>
+- The original model had an accuracy of <b>0.7242</b>.
+<img src=Resources\Original_Performance.png></img><br>
 - The first attempt at optimization had the following changes:
   - Dropped the possible noisy SPECIAL_CONSIDERATIONS field.
   - Added nodes to both hidden layers.
- -The first optimization attempt had an accuracy of <b>0.748</b>, showing a very slight improvement.
-  <img src=Resources\Optimization1_Performance.png></img><br>
-  Here are the parameters for the first optimiztion attempt.
+ - Here are the parameters for the first optimiztion attempt:
   - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
   - There were 120 nodes in the first hidden layer and 60 in the second hidden layer.<br>
   - There were 50 training epochs.<br>
 <img src=Resources\Optimization1_Model.png></img><br>
+ -The first optimization attempt had an accuracy of <b>0.748</b>, showing a very slight improvement.
+  <img src=Resources\Optimization1_Performance.png></img><br>
