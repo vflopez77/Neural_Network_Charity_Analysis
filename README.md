@@ -25,10 +25,15 @@ The data for the neural network model is as follows:
   - EIN
   - NAME
 ### Compiling, Training and Evaluating the Model
-The original model had an accuracy of 0.7242
+- The original model had an accuracy of 0.7242
 <img src=Resources\Original_Performance.png></img><br>
 Here are the original model parameters.<br>
 The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
 There were 80 nodes in the first hidden layer and 30 in the second.<br>
-There were 50 training epochs for all models as no improvement was observed after 50.<br>
+There were 50 training epochs for all models as no improvement was ever observed after 50.<br>
 <img src=Resources\Original_Model.png></img><br>
+- The first attempt at optimization had the following changes:
+  - Drop the possible noisy SPECIAL_CONSIDERATIONS field.
+  - Add nodes to both hidden layers.
+  Here are the parameters for the first optimiztion attempt.
+  
