@@ -35,7 +35,7 @@ The data for the neural network model is as follows:
 - The first attempt at optimization had the following changes:
   - Dropped the possible noisy SPECIAL_CONSIDERATIONS field.
   - Added nodes to both hidden layers.
- - Here are the parameters for the first optimiztion attempt:
+ - Here are the parameters for the first optimiztion attempt:<br>
   - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
   - There were 120 nodes in the first hidden layer and 60 in the second hidden layer.<br>
   - There were 50 training epochs.<br>
