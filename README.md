@@ -47,21 +47,22 @@ The data for the neural network model is as follows:
 - The second attempt at optimization had the following changes:
   - Dropped the possible noisy INCOME_AMT field.
   - Added a third hidden layer.
- - Here are the parameters for the first optimization attempt:<br>
+ - Here are the parameters for the second optimization attempt:<br>
     - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
-    - There were 82 nodes in the first hidden layer, 41 in the second hidden layer, and 20 in the third hidden layer<br>
+    - There were 82 nodes in the first hidden layer, 41 in the second hidden layer, and 20 in the third hidden layer.<br>
     - There were 50 training epochs.<br>
 <img src=Resources\Optimization2_Model.png></img><br>
  - The second optimization attempt had an accuracy of <b>0.7195</b>, showing worse performance.
   <img src=Resources\Optimization2_Performance.png></img><br>
     
-- The second attempt at optimization had the following changes:
-  - Dropped the possible noisy INCOME_AMT field.
-  - Added a third hidden layer.
+- The third attempt at optimization had the following changes:
+  - Restored SPECIAL_CONSIDERATIONS and INCOME_AMT fields.
+  - Number of hidden layer nodes altered to match original model.
+  - Activation function for hidden layers changed from RELU to the more modern Swish.
  - Here are the parameters for the first optimization attempt:<br>
-    - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
-    - There were 82 nodes in the first hidden layer, 41 in the second hidden layer, and 20 in the third hidden layer<br>
+    - The activation for the inner layers is <b>SWISH</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
+    - There were 80 nodes in the first hidden layer and 30 in the second hidden layer.<br>
     - There were 50 training epochs.<br>
 <img src=Resources\Optimization2_Model.png></img><br>
- - The second optimization attempt had an accuracy of <b>0.7195</b>, showing worse performance.
+ - The second optimization attempt had an accuracy of <b>0.7202</b>, slightly better than Attempt #2 but worse than Attempt #1 and the original model.
   <img src=Resources\Optimization2_Performance.png></img><br>
