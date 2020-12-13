@@ -35,5 +35,7 @@ There were 50 training epochs for all models as no improvement was ever observed
 - The first attempt at optimization had the following changes:
   - Drop the possible noisy SPECIAL_CONSIDERATIONS field.
   - Add nodes to both hidden layers.
+  The first optimization attempt had an accuracy of 0.748, showing a very slight improvement.
+  <img src=Resources\Optimization1_Performance.png></img><br>
   Here are the parameters for the first optimiztion attempt.
   
