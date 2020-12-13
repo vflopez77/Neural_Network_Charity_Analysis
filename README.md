@@ -25,7 +25,7 @@ The data for the neural network model is as follows:
   - EIN
   - NAME
 ### Compiling, Training and Evaluating the Model
--Here are the original model parameters:<br>
+- Here are the original model parameters:<br>
   - The activation for the inner layers is <b>RELU</b> and the activation for the output layer is <b>SIGMOID</b>.<br>
   - There were 80 nodes in the first hidden layer and 30 in the second hidden layer.<br>
   - There were 50 training epochs for all models as no improvement was ever observed after 50.<br>
