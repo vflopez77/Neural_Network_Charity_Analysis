@@ -52,5 +52,5 @@ The data for the neural network model is as follows:
     - There were 82 nodes in the first hidden layer, 41 in the second hidden layer, and 20 in the third hidden layer<br>
     - There were 50 training epochs.<br>
 <img src=Resources\Optimization2_Model.png></img><br>
- - The first optimization attempt had an accuracy of <b>0.7195</b>, showing a very slight improvement.
+ - The second optimization attempt had an accuracy of <b>0.7195</b>, showing worse performance.
   <img src=Resources\Optimization2_Performance.png></img><br>
